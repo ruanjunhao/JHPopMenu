@@ -27,7 +27,7 @@
     
 
     [listView showOnTheView:self.view];
+```
     
-    
-    ![JHPopMenu](https://github.com/JungHsu/JHPopMenu/blob/master/JHPopMenu.gif?raw=true)
+    ![image](https://raw.githubusercontent.com/JungHsu/JHPopMenu/master/JHPopMenu.gif)
     
