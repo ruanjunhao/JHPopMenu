@@ -29,5 +29,5 @@
     [listView showOnTheView:self.view];
     
     
-    ![JHPopMenu](https://github.com/JungHsu/JHPopMenu/blob/master/JHPopMenu.gif)
+    ![JHPopMenu](https://github.com/JungHsu/JHPopMenu/blob/master/JHPopMenu.gif?raw=true)
     
