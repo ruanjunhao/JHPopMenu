@@ -29,5 +29,5 @@
     [listView showOnTheView:self.view];
 ```
     
-    ![image](https://raw.githubusercontent.com/JungHsu/JHPopMenu/master/JHPopMenu.gif)
+   ![Aaron Swartz](https://raw.githubusercontent.com/JungHsu/JHPopMenu/master/JHPopMenu.gif)
     
