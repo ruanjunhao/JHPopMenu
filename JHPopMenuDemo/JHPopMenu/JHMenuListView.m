@@ -20,10 +20,10 @@
 -(instancetype)initWithFrame:(CGRect)frame{
 
     if (self = [super initWithFrame:frame]) {
-         NSLog(@"%@",NSStringFromCGRect(self.frame));
+
         self.backgroundColor = [[UIColor whiteColor]colorWithAlphaComponent:0.99];
-            self.frame = [UIScreen mainScreen].bounds;
-        NSLog(@"%@",NSStringFromCGRect(self.frame));
+
+       
     }
     return self;
 }
@@ -40,7 +40,14 @@
         [self addSubview:button];
     }
     
-    [self layoutIfNeeded];
+}
+
+-(void)layoutSubviews{
+    
+    [super layoutSubviews];
+    self.frame = [UIScreen mainScreen].bounds;
+    
+    
 }
 
 /** 通过按钮的索引计算frame */
