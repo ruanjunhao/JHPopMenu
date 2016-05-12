@@ -12,13 +12,9 @@
 @interface JHMenuListView : UIView
 
 /** 所有的按钮 */
-@property (nonatomic,strong)NSArray *menus;
+@property (nonatomic,strong)NSArray<JHMenuButton *> *menus;
 
 /** 显示到某个View上 */
 -(void)showOnTheView:(UIView *)view;
-
-
-
-
 
 @end

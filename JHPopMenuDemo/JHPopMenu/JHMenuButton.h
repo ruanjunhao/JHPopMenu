@@ -13,7 +13,7 @@ typedef void(^JHMenuClickBlock)();
 @interface JHMenuButton : UIButton
 
 
-+(instancetype)menuButtonTitle:(NSString *)title image:(UIImage *)image clickBlock:(JHMenuClickBlock)clickBlock;
++(instancetype)menuButtonTitle:( NSString *)title image:(UIImage *)image clickBlock:(JHMenuClickBlock)clickBlock;
 
 @property (nonatomic,copy)JHMenuClickBlock clickBlock;
 

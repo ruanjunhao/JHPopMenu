@@ -22,8 +22,6 @@
     if (self = [super initWithFrame:frame]) {
 
         self.backgroundColor = [[UIColor whiteColor]colorWithAlphaComponent:0.99];
-
-       
     }
     return self;
 }
@@ -46,9 +44,7 @@
     
     [super layoutSubviews];
     self.frame = [UIScreen mainScreen].bounds;
-    
-    
-}
+  }
 
 /** 通过按钮的索引计算frame */
 -(CGRect)calculateFrameForIndex:(NSUInteger)index{
